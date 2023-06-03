@@ -6,21 +6,27 @@
 
 h1 {
     font-family: Georgia, serif;
-    font-weight: 900;
+    font-weight: 600;
     background-color: rgb(67, 236, 61);
     text-align: left;
+    width: 600px;
+    margin: 0 auto;
 }
 
-ul,
-ol,
-li,
 a {
     font-family: monospace;
     background-color: aquamarine;
     font-size: 30px;
-
+    padding: 16px;
+    margin: 32px 16px;
 }
 
 li {
     align-tracks: center;
+    display: inline-block;
+    margin: 16px auto;
+}
+
+ul {
+    margin: 16px 40px 0 0;
 }
